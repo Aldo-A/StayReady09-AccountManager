@@ -6,17 +6,8 @@ public class BusinessAccount extends BankAccount {
 
     public BusinessAccount(Double intialDeposit, String name,int taxID) {
         super(intialDeposit);
-        setCompanyName(name);
+        setName(name);
         setTaxID(taxID);
-    }
-
-    public void setCompanyName(String name) {
-        this.companyName=name;
-
-    }
-
-    public String getCompanyName(){
-        return this.companyName;
     }
 
     public void setTaxID(int taxID){
@@ -25,6 +16,17 @@ public class BusinessAccount extends BankAccount {
 
     public int getTaxID(){
         return this.taxID;
+    }
+
+    @Override
+    public String getName() {
+        return this.companyName;
+    }
+
+    @Override
+    public void setName(String name) {
+        this.companyName=name;
+
     }
 
     @Override

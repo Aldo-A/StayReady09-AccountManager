@@ -11,7 +11,7 @@ To demonstrate your understanding of the following:
 
 ## Overview
 
-In this lab you will create an ATM-like application that will allow users to create and manage accounts. A class called *BankAccount* has been created for you as well as a class name *MainApplication*. The *BankAccount* class needs to be abstract class, and will be the base class for three other classes called “CheckingAccount”, “SavingsAccount” and “BusinessAccount”. Manage credits and debits from these accounts through an ATM style program.
+In this lab you will create an ATM-like application that will allow users to create and manage accounts. A class called *BankAccount* has been created for you as well as a class name *Demo.MainApplication*. The *BankAccount* class needs to be abstract class, and will be the base class for three other classes called “CheckingAccount”, “SavingsAccount” and “BusinessAccount”. Manage credits and debits from these accounts through an ATM style program.
 
 ## Unit Test
 
@@ -50,7 +50,7 @@ Remember to create getter and setter methods to set and retrieve values where ap
 
 ## Part 2
 
-Use the *MainApplication* class as the entry point to the ATM. Use the *main()* and *Scanner* to allow the user to interact with your ATM. A user should be able to create, view and delete accounts.
+Use the *Demo.MainApplication* class as the entry point to the ATM. Use the *main()* and *Scanner* to allow the user to interact with your ATM. A user should be able to create, view and delete accounts.
 
 ## Part 3
 

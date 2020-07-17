@@ -22,6 +22,8 @@ public abstract class BankAccount {
         return this.activated;
     }
 
+    public abstract String getName();
+    public abstract void setName(String name);
     public abstract Double getFees();
     public abstract Double getBalance();
     public abstract Integer getID();

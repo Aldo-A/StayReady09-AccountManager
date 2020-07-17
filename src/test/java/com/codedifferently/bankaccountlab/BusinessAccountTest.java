@@ -20,7 +20,7 @@ public class BusinessAccountTest {
         // Given
 
         // When
-        String actualName=bus.getCompanyName();
+        String actualName=bus.getName();
         Double actualBalance=bus.getBalance();
         Integer actualID=bus.getID();
         boolean actualActivated= bus.isActive();
@@ -42,7 +42,7 @@ public class BusinessAccountTest {
         // Given
 
         // When
-        String actualName=bus.getCompanyName();
+        String actualName=bus.getName();
 
         // Then
         Assert.assertEquals(name,actualName);
@@ -135,8 +135,8 @@ public class BusinessAccountTest {
         String expected="Garner co.";
 
         // When
-        bus.setCompanyName(expected);
-        String actualName=bus.getCompanyName();
+        bus.setName(expected);
+        String actualName=bus.getName();
 
         // Then
         Assert.assertEquals(expected,actualName);

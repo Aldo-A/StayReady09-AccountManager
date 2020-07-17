@@ -8,11 +8,13 @@ public class SavingsAccount extends BankAccount {
         setName(name);
     }
 
+    @Override
     public void setName(String name) {
         this.name=name;
 
     }
 
+    @Override
     public String getName(){
         return this.name;
     }
